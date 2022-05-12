@@ -73,7 +73,7 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
           >
             <View style={styles.headerContainer}>
-              <Text style={styles.headerTitle}>Articles to Read</Text>
+              <Text style={styles.headerTitle}>Artículos para leer</Text>
               <Icon
                 name="chevron-right"
                 type="feather"
@@ -87,7 +87,7 @@ export default class HomeScreen extends Component {
             </View>
 
             <View style={styles.subContainer}>
-              {/* Add WebView component here to show the article url*/}
+              {/* Agrega un componente WebView aquí para mostrar la url del artículo*/}
               <WebView source={{ uri: url }} />
 
               <View style={styles.iconButtonContainer}>
@@ -116,9 +116,9 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
           >
             <View style={styles.headerContainer}>
-              <Text style={styles.headerTitle}>Articles to Read</Text>
+              <Text style={styles.headerTitle}>Artículos para leer</Text>
             </View>
-            <Text style={styles.headerTitle}>Loading...</Text>
+            <Text style={styles.headerTitle}>Cargando...</Text>
           </ImageBackground>
         </View>
       );
