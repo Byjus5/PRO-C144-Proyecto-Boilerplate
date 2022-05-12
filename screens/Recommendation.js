@@ -20,7 +20,7 @@ export default class PopularScreen extends Component {
   }
 
   getData = () => {
-    /*Complete the getData() function.*/
+    /*Completa la función getData().*/
 
 
   };
@@ -33,7 +33,7 @@ export default class PopularScreen extends Component {
           source={require("../assets/bg.png")}
           style={{ flex: 1 }}
         >
-          {/* Add FlatList component here to show the list of articles*/}
+          {/* Agrega el componente FlatList aquí para mostrar la lista de artículos*/}
           
         </ImageBackground>
       </View>
